@@ -10,7 +10,7 @@ This project is a production-grade backend infrastructure designed to automate c
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The system is built on a decoupled, asynchronous microservices architecture to ensure high performance and scalability.
 
@@ -29,15 +29,15 @@ graph LR
     K -.->|Audit & Memory| L[(PostgreSQL)]
 ```
 
-### 🧠 The Core Components
-*   **🌐 API Layer:** High-performance asynchronous endpoints developed with FastAPI.
-*   **🔀 Intelligent Orchestrator:** A semantic routing engine that directs queries to Support, Sales, Technical, or General agents based on intent analysis.
-*   **📚 RAG Engine:** A document processing pipeline using ChromaDB and HuggingFace/OpenAI embeddings for real-time semantic search across PDF, DOCX, and TXT files.
-*   **💾 Persistence Layer:** PostgreSQL managed via SQLAlchemy for conversation history, auditing, and system observability.
+### The Core Components
+*   **API Layer:** High-performance asynchronous endpoints developed with FastAPI.
+*   **Intelligent Orchestrator:** A semantic routing engine that directs queries to Support, Sales, Technical, or General agents based on intent analysis.
+*   **RAG Engine:** A document processing pipeline using ChromaDB and HuggingFace/OpenAI embeddings for real-time semantic search across PDF, DOCX, and TXT files.
+*   **Persistence Layer:** PostgreSQL managed via SQLAlchemy for conversation history, auditing, and system observability.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 | :--- | :--- |
@@ -49,7 +49,7 @@ graph LR
 
 ---
 
-## ✨ Key Features & Senior Best Practices
+## Key Features & Senior Best Practices
 
 *   **Agentic Specialization:** Distinct LLM profiles for technical troubleshooting, sales conversion, and general corporate information.
 *   **Performance Optimization:** Inference calls optimized for sub-second latency using Groq LPU hardware acceleration and Gemini 1.5/2.0 models.
@@ -59,7 +59,7 @@ graph LR
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 multi-agent-ecosystem/
@@ -76,7 +76,7 @@ multi-agent-ecosystem/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 *   Docker & Docker Compose
@@ -104,7 +104,7 @@ Once the containers are running, access the interactive API documentation (Swagg
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 *   Implement Kubernetes manifests (Helm charts) for highly available deployment.
 *   Add a frontend UI layer (e.g., Streamlit or React) for a complete chatbot experience.
 *   Integrate NeMo Guardrails for enhanced LLM output security and policy enforcement.
@@ -113,7 +113,7 @@ Once the containers are running, access the interactive API documentation (Swagg
 
 <br>
 <p align="center">
-  <i>Engineered with precision, scalability, and a passion for data. ⚡</i>
+  <i>Engineered with precision, scalability, and a passion for data.</i>
 </p>
 
 <p align="center">
