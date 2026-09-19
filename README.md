@@ -41,7 +41,7 @@ graph LR
 
 | Category | Technologies |
 | :--- | :--- |
-| **Core** | Python 3.10+, FastAPI, LangChain |
+| **Core** | Python 3.14+, FastAPI, LangChain |
 | **LLMs** | Google Gemini, Meta Llama 3.3 (via Groq) |
 | **Vector Database** | ChromaDB |
 | **Relational Database** | PostgreSQL, SQLAlchemy |
@@ -81,7 +81,7 @@ multi-agent-ecosystem/
 ### Prerequisites
 *   Docker & Docker Compose
 *   API Keys for Google Gemini and/or Groq
-*   Python 3.10+ (if running locally without Docker)
+*   Python 3.14+ (if running locally without Docker)
 
 ### 1. Environment Setup
 Clone the repository and set up your `.env` file:
